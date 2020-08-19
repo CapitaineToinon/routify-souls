@@ -1,0 +1,43 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "routify -c my-server",
+    "my-server": "rollup -c -w",
+    "build": "rm -rf ./public/build && routify -b && rollup -c",
+    "start": "sirv public --single"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "@sveltech/routify": "^1.9.7",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "postcss-load-config": "^2.1.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^6.0.0",
+    "sass": "^1.26.10",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^4.0.12",
+    "tailwindcss": "^1.7.0",
+    "tailwindcss-dark-mode": "^1.1.6"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "date-fns": "^2.15.0",
+    "dotenv": "^8.2.0",
+    "get-youtube-id": "^1.0.1",
+    "rxjs": "^6.6.2",
+    "sirv-cli": "^1.0.0",
+    "svelte-awesome": "^2.3.0"
+  }
+}
