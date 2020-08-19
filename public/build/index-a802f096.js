@@ -1,1 +1,0 @@
-import{_ as a,a as n,b as s,i as t,c as r,S as i,s as o,t as u,d as c,n as f,e}from"./main-42864eb9.js";function l(a){var n;return{c:function(){n=u("lmao")},m:function(a,s){c(a,n,s)},p:f,i:f,o:f,d:function(a){a&&e(n)}}}var m=function(u){a(f,i);var c=n(f);function f(a){var n;return s(this,f),n=c.call(this),t(r(n),a,null,l,o,{}),n}return f}();export default m;
