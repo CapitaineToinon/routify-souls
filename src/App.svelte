@@ -1,6 +1,8 @@
 <script>
-  import { Router } from '@sveltech/routify'
+  import { Router, basepath } from '@sveltech/routify'
   import { routes } from '@sveltech/routify/tmp/routes'
+
+  $basepath = '/routify-souls'
 </script>
 
 <!-- src/App.svelte -->
