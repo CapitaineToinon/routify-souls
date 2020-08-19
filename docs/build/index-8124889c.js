@@ -1,1 +1,0 @@
-import{_ as a,a as n,b as s,i as t,c as r,S as i,s as c,t as o,d as u,n as f,e}from"./main-3cec1253.js";function l(a){var n;return{c:function(){n=o("lmao")},m:function(a,s){u(a,n,s)},p:f,i:f,o:f,d:function(a){a&&e(n)}}}var m=function(o){a(f,i);var u=n(f);function f(a){var n;return s(this,f),n=u.call(this),t(r(n),a,null,l,c,{}),n}return f}();export default m;
