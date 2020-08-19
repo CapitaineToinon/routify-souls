@@ -33,7 +33,7 @@
 
   <div class="responsive-table mb-4">
     <table class="text-center">
-      <!-- <TableHead {leaderboard} /> -->
+      <TableHead {leaderboard} />
       <TableBody {leaderboard} />
     </table>
   </div>

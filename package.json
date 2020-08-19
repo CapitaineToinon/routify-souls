@@ -5,8 +5,7 @@
     "dev": "routify -c my-server",
     "my-server": "rollup -c -w",
     "build": "rm -rf ./public/build && routify -b && rollup -c",
-    "start": "sirv public --single",
-    "pages": "rm -rf docs && yarn build && cp -R public docs"
+    "start": "sirv public --single"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
