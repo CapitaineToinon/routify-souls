@@ -1,1 +1,0 @@
-import{_ as a,a as n,b as t,i as s,c as o,S as r,s as u,t as i,d as c,n as f,e}from"./main-77453a5e.js";function l(a){var n;return{c:function(){n=i("Route not found")},m:function(a,t){c(a,n,t)},p:f,i:f,o:f,d:function(a){a&&e(n)}}}var d=function(i){a(f,r);var c=n(f);function f(a){var n;return t(this,f),n=c.call(this),s(o(n),a,null,l,u,{}),n}return f}();export default d;
