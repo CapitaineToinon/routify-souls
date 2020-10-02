@@ -3,7 +3,7 @@ import { retry, pluck } from 'rxjs/operators'
 import CACHE from './cache'
 
 const BASE_URL = 'https://www.speedrun.com/api/v1'
-const SERIE = 'souls'
+const SERIE = 'mario'
 const RETRY_COUNT = 3
 
 /**
@@ -36,7 +36,7 @@ function echo(path) {
  */
 export function getLeaderboard(game, category, filters = '') {
   return echo(
-    `/leaderboards/${game}/category/${category}` +
+    `/leaderboards/sm64/category/120_Star` +
       `?embed=game,category,players,variables&${filters}`
   ).toPromise()
 }

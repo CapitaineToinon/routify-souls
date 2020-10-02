@@ -13,7 +13,7 @@
 <thead>
   <tr>
     <th class="shrink">Rank</th>
-    <th class="shrink">Players</th>
+    <th class="expand">Players</th>
     <th class="shrink">
       <span class="block md:hidden lg:block">{getTimeName(primaryTime)}</span>
       <span class="hidden md:block lg:hidden">Time</span>
@@ -26,7 +26,7 @@
     {#each variables as variable}
       <th class="shrink table-cell md:hidden lg:table-cell">{variable.name}</th>
     {/each}
-    <th class="table-cell md:hidden xl:table-cell">Date</th>
-    <th class="shrink hidden xl:table-cell">VOD</th>
+    <th class="shrink table-cell md:hidden xl:table-cell">Date</th>
+    <th class="shrink hidden xl:table-cell"></th>
   </tr>
 </thead>

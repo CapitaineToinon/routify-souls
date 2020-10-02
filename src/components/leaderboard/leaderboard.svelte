@@ -17,7 +17,7 @@
   <div class="progress h-2 flex flex-row"></div>
 {:then leaderboard}
 
-  <!-- {#each category.variables.data as { name, id, values, ...sub }, i}
+  {#each category.variables.data as { name, id, values, ...sub }, i}
     {#if sub['is-subcategory']}
       <select
         {name}
@@ -29,7 +29,7 @@
         {/each}
       </select>
     {/if}
-  {/each} -->
+  {/each}
 
   <div class="responsive-table mb-4">
     <table class="text-center">

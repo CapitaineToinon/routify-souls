@@ -1,9 +1,6 @@
 <script>
-  import { goto } from '@sveltech/routify'
   import NavBar from '../components/navbar.svelte'
   import Footer from '../components/footer.svelte'
-
-  $goto('/leaderboards/darksouls/any')
 </script>
 
 <NavBar />

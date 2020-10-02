@@ -16,7 +16,7 @@
           <div class="bg-black pb-3/5 relative">
             <img
               class="absolute h-full w-full object-cover opacity-75"
-              src="{game.assets.background.uri}"
+              src="/images/backgrounds/{game.abbreviation}-240.jpg"
               alt="Sunset in the mountains"
             />
             <div

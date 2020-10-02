@@ -78,7 +78,7 @@
         </td>
       {/each}
 
-      <td class="table-cell md:hidden xl:table-cell" data-label="Date">
+      <td class="shrink table-cell md:hidden xl:table-cell" data-label="Date">
         {formatDate(run.run.date)}
       </td>
 
